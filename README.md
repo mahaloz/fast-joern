@@ -1,3 +1,5 @@
+# WARNING: THIS EDIT IS FOR SPEED AND MAY BE INCORRECT FOR OTHER ANALYSES
+
 Joern - The Bug Hunter's Workbench
 ===
 
