@@ -21,6 +21,7 @@ object ControlFlow {
       case _                      => Iterator[CpgPassBase](new CfgCreationPass(cpg))
     }
     //cfgCreationPass ++ Iterator(new CfgDominatorPass(cpg), new CdgPass(cpg))
+    cfgCreationPass
   }
 
 }
