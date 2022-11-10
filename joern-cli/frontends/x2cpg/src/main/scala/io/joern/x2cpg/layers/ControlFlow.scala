@@ -20,7 +20,7 @@ object ControlFlow {
       case Some(Languages.LLVM)   => Iterator[CpgPassBase]()
       case _                      => Iterator[CpgPassBase](new CfgCreationPass(cpg))
     }
-    cfgCreationPass ++ Iterator(new CfgDominatorPass(cpg), new CdgPass(cpg))
+    //cfgCreationPass ++ Iterator(new CfgDominatorPass(cpg), new CdgPass(cpg))
   }
 
 }
